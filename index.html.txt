@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>第五人格 ハンター能力ランキング</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<style>
+  :root { --bg:#101214; --fg:#e6e6e6; --muted:#9aa0a6; --line:#2b2f36; --head:#1e232a; --acc:#ff4d4f; }
+  body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg);margin:24px;}
+  h1{font-size:20px;margin:0 0 12px;}
+  p{color:var(--muted);margin:0 0 18px;font-size:14px;}
+  table{border-collapse:collapse;width:100%;font-size:14px;}
+  th,td{border:1px solid var(--line);padding:8px 10px;text-align:center;white-space:nowrap;}
+  thead th{background:var(--head);position:sticky;top:0;}
+  th{cursor:pointer;user-select:none;}
+  th .sub{display:block;font-size:11px;color:var(--muted);font-weight:400;}
+  tr:nth-child(even){background:#141821;}
+  tr:hover{background:#18202b;}
+  .asc::after{content:" ▲";color:var(--acc);}
+  .desc::after{content:" ▼";color:var(--acc);}
+  .left{ text-align:left; white-space:normal; }
+</style>
+</head>
+<body>
+
+<h1>第五人格 ハンター能力ランキング（形態別）</h1>
+<p>列名クリックで並べ替え。未確認値は「—」のままにしてあります（分かり次第追記してください）。</p>
+
+<table id="ranking">
+  <thead>
+    <tr>
+      <th data-type="string">キャラ（形態）</th>
+      <th data-type="number">モデル体積<span class="sub">半径m</span></th>
+      <th data-type="number">移動速度<span class="sub">m/s</span></th>
+      <th data-type="number">窓の乗り越え<span class="sub">秒</span></th>
+      <th data-type="number">板の破壊<span class="sub">秒</span></th>
+      <th data-type="number">板気絶<span class="sub">秒</span></th>
+      <th data-type="number">通常攻撃距離<span class="sub">m</span></th>
+      <th data-type="number">溜め攻撃距離<span class="sub">m</span></th>
+      <th data-type="number">風船拘束<span class="sub">秒</span></th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <!-- 復讐者：レオ（A706...） -->
+    <tr>
+      <td class="left">復讐者：レオ</td><td>0.38</td><td>4.64</td><td>1.31</td><td>2.54</td><td>3.53</td><td>2.87</td><td>3.46</td><td>—</td>
+    </tr>
+
+    <!-- 道化師：ジョーカー（13FC...） -->
+    <tr>
+      <td class="left">道化師：ジョーカー</td><td>0.38</td><td>4.56</td><td>1.40</td><td>2.54</td><td>3.80</td><td>3.04</td><td>3.38</td><td>—</td>
+    </tr>
+
+    <!-- 断罪狩人：ベイン（3670...） -->
+    <tr>
+      <td class="left">断罪狩人：ベイン</td><td>0.38</td><td>4.64</td><td>1.40</td><td>2.67</td><td>2.83</td><td>2.95</td><td>3.29</td><td>—</td>
+    </tr>
+
+    <!-- リッパー（766E.. + B3E0..） -->
+    <tr>
+      <td class="left">リッパー</td><td>0.38</td><td>4.73</td><td>1.98</td><td>2.43</td><td>3.27</td><td>2.70</td><td>3.46</td><td>1.96</td>
+    </tr>
+
+    <!-- 結魂者：ヴィオレッタ（0008...） -->
+    <tr>
+      <td class="left">結魂者：ヴィオレッタ</td><td>0.46</td><td>4.56</td><td>2.81</td><td>3.14</td><td>3.85</td><td>2.87</td><td>3.12</td><td>—</td>
+    </tr>
+
+    <!-- 芸者（美人相 / 般若相）（2F85...） -->
+    <tr>
+      <td class="left">芸者（美人相）</td><td>0.38</td><td>4.73</td><td>1.80</td><td>2.27</td><td>3.72</td><td>2.70</td><td>3.04</td><td>—</td>
+    </tr>
+    <tr>
+      <td class="left">芸者（般若相）</td><td>0.38</td><td>4.56</td><td>1.80</td><td>2.27</td><td>3.72</td><td>2.70</td><td>3.04</td><td>—</td>
+    </tr>
+
+    <!-- 白黒無常（F7D8.. + B787..） -->
+    <tr>
+      <td class="left">白黒無常（謝必安）</td><td>0.38</td><td>4.73</td><td>1.91</td><td>2.95</td><td>4.66</td><td>3.15</td><td>5.49</td><td>1.96</td>
+    </tr>
+    <tr>
+      <td class="left">白黒無常（范無咎）</td><td>0.38</td><td>4.56</td><td>1.80</td><td>2.00</td><td>2.98</td><td>3.06</td><td>3.20</td><td>1.96</td>
+    </tr>
+
+    <!-- 写真家：ジョゼフ（5369...） -->
+    <tr>
+      <td class="left">写真家：ジョゼフ</td><td>0.38</td><td>4.64</td><td>1.60</td><td>1.92</td><td>3.94</td><td>3.46</td><td>3.63</td><td>—</td>
+    </tr>
+
+  </tbody>
+</table>
+
+<script>
+(function(){
+  const table = document.getElementById('ranking');
+  const headers = table.querySelectorAll('thead th');
+
+  function numOrNull(text){
+    const t = (text||"").toString().replace(/[^\d.\-]/g,'');
+    const v = parseFloat(t);
+    return Number.isFinite(v) ? v : null;
+  }
+
+  headers.forEach((th, idx) => {
+    th.addEventListener('click', () => {
+      const type = th.dataset.type || 'string';
+      const tbody = table.tBodies[0];
+      const rows = Array.from(tbody.rows);
+      const asc = !th.classList.contains('asc');
+
+      headers.forEach(h => h.classList.remove('asc','desc'));
+      th.classList.toggle('asc', asc);
+      th.classList.toggle('desc', !asc);
+
+      rows.sort((a,b) => {
+        const A = a.cells[idx].textContent.trim();
+        const B = b.cells[idx].textContent.trim();
+
+        if(type === 'number'){
+          const aN = numOrNull(A), bN = numOrNull(B);
+          if(aN===null && bN===null) return 0;
+          if(aN===null) return 1;          // 空欄は後ろへ
+          if(bN===null) return -1;
+          return asc ? aN - bN : bN - aN;
+        }else{
+          return asc ? A.localeCompare(B, 'ja') : B.localeCompare(A, 'ja');
+        }
+      });
+
+      rows.forEach(r => tbody.appendChild(r));
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
